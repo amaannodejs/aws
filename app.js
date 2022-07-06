@@ -33,7 +33,7 @@ const connect = async () => {
   try {
 
     // await sequelize.authenticate()
-    await app.listen('80')
+    await app.listen(process.env.PORT||'80')
     console.log('80isUP')
 
 
