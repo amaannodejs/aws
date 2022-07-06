@@ -3,7 +3,7 @@ const express =require('express'),
 
 
 app.use('/',(req,res)=>{
-    app.send('App is UP!!')
+    res.send('App is UP!!')
 })
 
 
