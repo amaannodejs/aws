@@ -1,2 +1,1 @@
-# aws
-for aws beanstalk deployment
+# aws deployement
